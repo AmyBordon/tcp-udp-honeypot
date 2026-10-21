@@ -105,6 +105,8 @@ void process_tcp(char *line){
                 }
         }
         e->last_seen = ts;
+	e->seen_cycle++;     
+        e->last_seen = ts;
 }
 
 // called at every cycle: UPDATE and ENDED

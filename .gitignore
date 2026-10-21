@@ -1,0 +1,11 @@
+# executabile
+monitor
+tcp/server
+udp/server
+
+# loguri si alerte
+*.log
+log.txt
+tcp/log.txt
+udp/log.txt
+alerts.txt
